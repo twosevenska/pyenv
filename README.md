@@ -1,18 +1,21 @@
-**This plugin for Fisherman is no longer maintained as I've switched away to using [asdf](https://github.com/asdf-vm/asdf) 
-instead. If this plugin is useful to you and you'd like to take over maintainership, please let me know.**
-
----
-
 # Pyenv
 
+## What is this
+
 [pyenv] plugin support for the fish shell.
+
+## Disclaimers
+
+1. This plugin for Fisherman is no longer maintained by the original owner [daenney](https://github.com/daenney/pyenv).
+1. I'm currently updating this fork jußst so I can have it work with my setup. It sounds a bit egotistical, but it simply was easier/faster editing this.
+1. I'm in no way familiar with the best practices around this, but again, not this is a quick bandage solution for me
 
 ## Install
 
 With [fisherman]
 
-```
-fisher daenney/pyenv
+```shell
+fisher add twosevenska/pyenv
 ```
 
 ## Notes
