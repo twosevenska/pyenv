@@ -16,7 +16,7 @@ function __fish_pyenv_using_command
     return 1
 end
 
-if command -s pyenv > /dev/null
+if command -s pyenv >/dev/null
     complete -f -c pyenv -n '__fish_pyenv_needs_command' -a '(pyenv commands)'
     for cmd in (pyenv commands)
         complete -f -c pyenv -n "__fish_pyenv_using_command $cmd" -a "(pyenv completions $cmd)"

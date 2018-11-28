@@ -1,8 +1,3 @@
-if not command -s pyenv > /dev/null
-    echo "Install <github.com/yyuu/pyenv> to use 'pyenv'."
-    exit 1
-end
-
 set -l pyenv_root ""
 
 if test -z "$PYENV_ROOT"
